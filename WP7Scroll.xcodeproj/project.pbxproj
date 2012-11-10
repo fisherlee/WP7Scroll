@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183291B11535538F004B2FD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183291B01535538F004B2FD1 /* UIKit.framework */; };
+		183291B31535538F004B2FD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183291B21535538F004B2FD1 /* Foundation.framework */; };
+		183291B51535538F004B2FD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183291B41535538F004B2FD1 /* CoreGraphics.framework */; };
+		183291BB1535538F004B2FD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 183291B91535538F004B2FD1 /* InfoPlist.strings */; };
+		183291BE1535538F004B2FD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183291BD1535538F004B2FD1 /* main.m */; };
+		183291C11535538F004B2FD1 /* WP7ScrollAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183291C01535538F004B2FD1 /* WP7ScrollAppDelegate.m */; };
+		183291C415355390004B2FD1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183291C215355390004B2FD1 /* MainWindow.xib */; };
+		183291C715355390004B2FD1 /* WP7ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183291C615355390004B2FD1 /* WP7ScrollViewController.m */; };
+		183291CA15355390004B2FD1 /* WP7ScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183291C815355390004B2FD1 /* WP7ScrollViewController.xib */; };
+		183291D2153553B4004B2FD1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183291D1153553B4004B2FD1 /* RootViewController.m */; };
+		183291D41535546F004B2FD1 /* dgg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 183291D31535546F004B2FD1 /* dgg.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		183291AC1535538F004B2FD1 /* WP7Scroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WP7Scroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183291B01535538F004B2FD1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		183291B21535538F004B2FD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		183291B41535538F004B2FD1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		183291B81535538F004B2FD1 /* WP7Scroll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WP7Scroll-Info.plist"; sourceTree = "<group>"; };
+		183291BA1535538F004B2FD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		183291BC1535538F004B2FD1 /* WP7Scroll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WP7Scroll-Prefix.pch"; sourceTree = "<group>"; };
+		183291BD1535538F004B2FD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		183291BF1535538F004B2FD1 /* WP7ScrollAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WP7ScrollAppDelegate.h; sourceTree = "<group>"; };
+		183291C01535538F004B2FD1 /* WP7ScrollAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WP7ScrollAppDelegate.m; sourceTree = "<group>"; };
+		183291C315355390004B2FD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		183291C515355390004B2FD1 /* WP7ScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WP7ScrollViewController.h; sourceTree = "<group>"; };
+		183291C615355390004B2FD1 /* WP7ScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WP7ScrollViewController.m; sourceTree = "<group>"; };
+		183291C915355390004B2FD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WP7ScrollViewController.xib; sourceTree = "<group>"; };
+		183291D0153553B3004B2FD1 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		183291D1153553B4004B2FD1 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		183291D31535546F004B2FD1 /* dgg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dgg.jpg; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183291A91535538F004B2FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183291B11535538F004B2FD1 /* UIKit.framework in Frameworks */,
+				183291B31535538F004B2FD1 /* Foundation.framework in Frameworks */,
+				183291B51535538F004B2FD1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183291A11535538F004B2FD1 = {
+			isa = PBXGroup;
+			children = (
+				183291B61535538F004B2FD1 /* WP7Scroll */,
+				183291AF1535538F004B2FD1 /* Frameworks */,
+				183291AD1535538F004B2FD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183291AD1535538F004B2FD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183291AC1535538F004B2FD1 /* WP7Scroll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183291AF1535538F004B2FD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				183291B01535538F004B2FD1 /* UIKit.framework */,
+				183291B21535538F004B2FD1 /* Foundation.framework */,
+				183291B41535538F004B2FD1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		183291B61535538F004B2FD1 /* WP7Scroll */ = {
+			isa = PBXGroup;
+			children = (
+				183291BF1535538F004B2FD1 /* WP7ScrollAppDelegate.h */,
+				183291C01535538F004B2FD1 /* WP7ScrollAppDelegate.m */,
+				183291C215355390004B2FD1 /* MainWindow.xib */,
+				183291C515355390004B2FD1 /* WP7ScrollViewController.h */,
+				183291C615355390004B2FD1 /* WP7ScrollViewController.m */,
+				183291C815355390004B2FD1 /* WP7ScrollViewController.xib */,
+				183291D0153553B3004B2FD1 /* RootViewController.h */,
+				183291D1153553B4004B2FD1 /* RootViewController.m */,
+				183291B71535538F004B2FD1 /* Supporting Files */,
+			);
+			path = WP7Scroll;
+			sourceTree = "<group>";
+		};
+		183291B71535538F004B2FD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183291D31535546F004B2FD1 /* dgg.jpg */,
+				183291B81535538F004B2FD1 /* WP7Scroll-Info.plist */,
+				183291B91535538F004B2FD1 /* InfoPlist.strings */,
+				183291BC1535538F004B2FD1 /* WP7Scroll-Prefix.pch */,
+				183291BD1535538F004B2FD1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183291AB1535538F004B2FD1 /* WP7Scroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183291CD15355390004B2FD1 /* Build configuration list for PBXNativeTarget "WP7Scroll" */;
+			buildPhases = (
+				183291A81535538F004B2FD1 /* Sources */,
+				183291A91535538F004B2FD1 /* Frameworks */,
+				183291AA1535538F004B2FD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WP7Scroll;
+			productName = WP7Scroll;
+			productReference = 183291AC1535538F004B2FD1 /* WP7Scroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183291A31535538F004B2FD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = LiWei;
+			};
+			buildConfigurationList = 183291A61535538F004B2FD1 /* Build configuration list for PBXProject "WP7Scroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 183291A11535538F004B2FD1;
+			productRefGroup = 183291AD1535538F004B2FD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183291AB1535538F004B2FD1 /* WP7Scroll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183291AA1535538F004B2FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183291BB1535538F004B2FD1 /* InfoPlist.strings in Resources */,
+				183291C415355390004B2FD1 /* MainWindow.xib in Resources */,
+				183291CA15355390004B2FD1 /* WP7ScrollViewController.xib in Resources */,
+				183291D41535546F004B2FD1 /* dgg.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183291A81535538F004B2FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183291BE1535538F004B2FD1 /* main.m in Sources */,
+				183291C11535538F004B2FD1 /* WP7ScrollAppDelegate.m in Sources */,
+				183291C715355390004B2FD1 /* WP7ScrollViewController.m in Sources */,
+				183291D2153553B4004B2FD1 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		183291B91535538F004B2FD1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183291BA1535538F004B2FD1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		183291C215355390004B2FD1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183291C315355390004B2FD1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		183291C815355390004B2FD1 /* WP7ScrollViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183291C915355390004B2FD1 /* en */,
+			);
+			name = WP7ScrollViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183291CB15355390004B2FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		183291CC15355390004B2FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		183291CE15355390004B2FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WP7Scroll/WP7Scroll-Prefix.pch";
+				INFOPLIST_FILE = "WP7Scroll/WP7Scroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		183291CF15355390004B2FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WP7Scroll/WP7Scroll-Prefix.pch";
+				INFOPLIST_FILE = "WP7Scroll/WP7Scroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183291A61535538F004B2FD1 /* Build configuration list for PBXProject "WP7Scroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183291CB15355390004B2FD1 /* Debug */,
+				183291CC15355390004B2FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183291CD15355390004B2FD1 /* Build configuration list for PBXNativeTarget "WP7Scroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183291CE15355390004B2FD1 /* Debug */,
+				183291CF15355390004B2FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183291A31535538F004B2FD1 /* Project object */;
+}
